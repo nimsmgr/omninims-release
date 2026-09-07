@@ -9,7 +9,7 @@
   "features": [
     "Single-file standalone installer (OmniNims-Setup.exe)",
     "Digitally signed binaries with automatic publisher trust",
-    "Streamlined background OTA update mechanism",
+    "Streamlined background OTA update mechanism"
   ],
   "fixes": [
     "Resolved SSL certificate verification error during update download",
