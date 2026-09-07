@@ -1,0 +1,21 @@
+{
+  "version": "1.1.0",
+  "buildNumber": 2,
+  "releaseDate": "2026-09-07",
+  "downloadUrl": "https://github.com/nimsmgr/omninims-release/releases/download/v1.1.0/OmniNims-Setup-x64.msi",
+  "sha256": "",
+  "isMandatory": false,
+  "title": "What's New in OmniNims v1.1.0",
+  "features": [
+    "Full-window thumbnail organizer grid with multi-page selection (Ctrl and Ctrl+Shift)",
+    "Non-contiguous reverse ordering for selected page ranges (e.g. 1, 6-9)",
+    "Optimized 3 MB compression threshold notice preventing premature compression",
+    "Over-The-Air (OTA) update system with in-app release notes dialog",
+    "Unsaved changes exit confirmation protection on Alt+F4 and window close",
+    "File-scoped undo/redo isolation preventing history bleeding across documents"
+  ],
+  "fixes": [
+    "Fixed PDF compression to prevent redundant re-compression runs",
+    "Enhanced document security handling with AES-256 encryption in background isolate"
+  ]
+}
