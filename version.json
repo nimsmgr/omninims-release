@@ -1,21 +1,18 @@
 {
-  "version": "1.1.0",
-  "buildNumber": 2,
+  "version": "1.2.0",
+  "buildNumber": 3,
   "releaseDate": "2026-09-07",
-  "downloadUrl": "https://github.com/nimsmgr/omninims-release/releases/download/v1.1.0/OmniNims-Setup-x64.msi",
-  "sha256": "",
+  "downloadUrl": "https://github.com/nimsmgr/omninims/releases/download/v1.2.0/OmniNims-Setup.exe",
+  "sha256": "5204D8CDC339F1A217510E69ECDAA5D9942D67CCFB046257963065E679A7225A",
   "isMandatory": false,
-  "title": "What's New in OmniNims v1.1.0",
+  "title": "OmniNims PDF Operator v1.2.0",
   "features": [
-    "Full-window thumbnail organizer grid with multi-page selection (Ctrl and Ctrl+Shift)",
-    "Non-contiguous reverse ordering for selected page ranges (e.g. 1, 6-9)",
-    "Optimized 3 MB compression threshold notice preventing premature compression",
-    "Over-The-Air (OTA) update system with in-app release notes dialog",
-    "Unsaved changes exit confirmation protection on Alt+F4 and window close",
-    "File-scoped undo/redo isolation preventing history bleeding across documents"
+    "New single-file standalone installer (OmniNims-Setup.exe)",
+    "Digitally signed binaries with automatic publisher trust",
+    "Streamlined background OTA update mechanism"
   ],
   "fixes": [
-    "Fixed PDF compression to prevent redundant re-compression runs",
-    "Enhanced document security handling with AES-256 encryption in background isolate"
+    "Resolved SSL certificate verification error during update download",
+    "Fixed duplicate application entries in Windows Installed apps"
   ]
 }
