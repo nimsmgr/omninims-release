@@ -3,7 +3,7 @@
   "buildNumber": 4,
   "releaseDate": "2026-09-09",
   "downloadUrl": "https://github.com/nimsmgr/omninims-release/releases/download/v1.2.2/OmniNims-Setup.exe",
-  "sha256": "6CFE4CBB9479C56D37EC6C8E7BB24EC44AE5FE10CE1F97063E377051C6A89C88",
+  "sha256": "",
   "isMandatory": true,
   "title": "What's New in OmniNims v1.2.2",
   "features": [
