@@ -1,19 +1,19 @@
 {
-  "version": "1.2.0",
-  "buildNumber": 3,
-  "releaseDate": "2026-09-07",
-  "downloadUrl": "https://github.com/nimsmgr/omninims-release/releases/download/v1.2.0/OmniNims-Setup.exe",
+  "version": "1.2.2",
+  "buildNumber": 4,
+  "releaseDate": "2026-09-09",
+  "downloadUrl": "https://github.com/nimsmgr/omninims-release/releases/download/v1.2.2/OmniNims-Setup.exe",
   "sha256": "6CFE4CBB9479C56D37EC6C8E7BB24EC44AE5FE10CE1F97063E377051C6A89C88",
   "isMandatory": true,
-  "title": "What's New in OmniNims v1.2.0",
+  "title": "What's New in OmniNims v1.2.2",
   "features": [
-    "Single-file standalone installer (OmniNims-Setup.exe)",
-    "Digitally signed binaries with automatic publisher trust",
-    "Streamlined background OTA update mechanism",
-    "Full-window thumbnail organizer grid with multi-page selection"
+    "PDF Print Options with customization to print pdf",
+    "Search text in document",
+    "Drag & Drop files to open them",
+    "Workflow for sidebar: Bookmark & comment"
   ],
   "fixes": [
-    "Resolved SSL certificate verification error during update download",
-    "Fixed duplicate application entries in Windows Installed apps"
+    "Resolved UI freezing & minor bug fixes",
+    "Fixed save changes alert without any changes being made"
   ]
 }
