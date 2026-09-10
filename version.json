@@ -1,19 +1,15 @@
 {
   "version": "1.2.2",
-  "buildNumber": 4,
-  "releaseDate": "2026-09-09",
+  "buildNumber": 5,
+  "releaseDate": "2026-09-10",
   "downloadUrl": "https://github.com/nimsmgr/omninims-release/releases/download/v1.2.2/OmniNims-Setup.exe",
-  "sha256": "834B2398C8FB4FAA0C1354FB4AAC730042696834E007F8B5243D7AA26F86AFBF",
+  "sha256": "A9645B315DE26FC44C549E866CFFD061642BEF707B9A0CDAD38A27174C048C18",
   "isMandatory": true,
   "title": "What's New in OmniNims v1.2.2",
   "features": [
-    "PDF Print Options with customization to print pdf",
-    "Search text in document",
-    "Drag & Drop files to open them",
-    "Workflow for sidebar: Bookmark & comment"
+    ""
   ],
   "fixes": [
-    "Resolved UI freezing & minor bug fixes",
-    "Fixed save changes alert without any changes being made"
+    "minor bug fixes"
   ]
 }
