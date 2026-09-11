@@ -1,15 +1,22 @@
 {
-  "version": "1.2.2.1",
-  "buildNumber": 5,
-  "releaseDate": "2026-09-10",
-  "downloadUrl": "https://github.com/nimsmgr/omninims-release/releases/download/v1.2.2/OmniNims-Setup.exe",
-  "sha256": "A9645B315DE26FC44C549E866CFFD061642BEF707B9A0CDAD38A27174C048C18",
-  "isMandatory": true,
-  "title": "What's New in OmniNims v1.2.2",
+  "version": "1.2.4",
+  "buildNumber": 7,
+  "releaseDate": "2026-09-11",
+  "downloadUrl": "https://github.com/nimsmgr/omninims/releases/download/v1.2.4/OmniNims-Setup.exe",
+  "sha256": "927F6D8AB3DECE475285F4E034C06BFF12E194FBD68FB31D6FC3BFBCEA36EDFE",
+  "isMandatory": false,
+  "title": "What's New in OmniNims v1.2.4",
   "features": [
-    ""
+    "Starts Full Screen: The app now automatically opens in a maximized window when your computer turns on.",
+    "Easier Page Management: Added a quick expand button (>>) to the side panel so you can jump straight into the full page-organizer view.",
+    "Quick Blank Documents: Creating a new document now opens a clean, blank A4 vector page ready for notes or drawing.",
+    "Seamless Updates: Updates now download and install silently in the background without interrupting your work."
   ],
   "fixes": [
-    "minor bug fixes"
+    "Fixed Duplicate Image Display: Resolved an issue where inserted images appeared twice after saving by clearing out temporary overlays.",
+    "Toolbar Display Fix: Fixed a bug where the highlight toolbar popped up off-screen near the right and bottom edges of your display.",
+    "Smarter PDF Saving: The app now automatically adds .pdf to new files and remembers the file path, so pressing Save updates the same file directly.",
+    "Unsaved Work Protection: Pressing Alt+F4 or clicking the close button (X) now reliably prompts you to save your changes before closing.",
+    "Smoother Page Deletion: Fixed UI lag and missed clicks when rapidly deleting multiple pages in the organizer tab."
   ]
 }
